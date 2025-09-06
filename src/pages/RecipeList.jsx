@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import RecipeCard from "../components/RecipeCard";
 import SearchBar from "../components/SearchBar";
 import RecipeForm from "../components/RecipeForm";
-import { getLocalRecipes, saveLocalRecipes } from "../utils/localStorage";
+import { getLocalRecipes, saveLocalRecipes } from "../utils/LocalStorage";
 import { searchRecipes } from "../api/Recipe";
 import { Plus } from "lucide-react";
 import toast, { Toaster } from "react-hot-toast";
